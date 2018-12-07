@@ -1,0 +1,30 @@
+docker search "image name" - search image
+docker run -d redis - run docker 
+docker ps - command lists all running containers,
+docker inspect <friendly-name|container-id> - provides more details about a running container, such as IP address.
+docker inspect <container name> - view container-id details
+docker run -d --name redisHostPort -p 6379:6379 redis:latest - runs docker on the local IP and a specific port number
+docker run -d --name redisDynamic -p 6379 redis:latest - expose the port name|container-id
+docker port redisDynamic 6379
+docker run -d --name redisMapped -v /opt/docker/data/redis:/data redis - saves to this directory: /opt/docker/data/redis
+docker run -d --name redisMapped -v "$PWD/data":/data redis - saves the data in a placeholder
+docker run ubuntu ps - Ubuntu container and executes the command ps to view all the processes running in a container.
+docker run -it ubuntu bash - allows bash shell inside of a container.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

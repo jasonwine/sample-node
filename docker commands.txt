@@ -1,0 +1,31 @@
+docker search <name> -- search docker image
+docker run   - run container in the foreground
+docker run -d - run container in the background
+docker ps -- lists all running containers
+docker inspect stupefied_mend|2419da71fe09
+docker run -d --name redisDynamic -p 6379 redis:latest
+docker run -d --name redisMapped -v /opt/docker/data/redis:/data redis -- placing containers in directoires 
+ docker run ubuntu ps -- launches an Ubuntu container
+docker run -it ubuntu bash -- allows  access to a bash shell inside of a container.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

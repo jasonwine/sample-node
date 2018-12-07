@@ -1,0 +1,14 @@
+docker commands 
+########################################################
+ls | checks file directory 
+docker ps | see containers
+
+docker build -t my-nodejs-app . | build application from docker file
+docker images -a | checks images
+docker inspect d3f62fb5fe1b | inspect container ID
+docker run -it |rm |name my-running-app my-nodejs-app | runs application with "REPOSITORY/image name"
+docker inspect d3f62fb5fe1b | inspects the container ID = need IP address of containter 
+docker run my-nodejs-app
+
+
+  
